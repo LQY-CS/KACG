@@ -19,4 +19,4 @@ python tran_train.py --num_layers=2 --hidden_dim=64 --dropout_t=0.4 --dropout_s=
 
 
 #A-Computers
-# python tran_train.py --num_layers=2 --hidden_dim=64 --dropout_t=0.4 --dropout_s=0.2 --learning_rate=0.005 --weight_decay=0.005 --max_epoch=200 --seed=353844 --data_mode=5 --tau_0=0.7 --tau_1=2.0 --topk=1 --alpha=0.6 --l_alpha=2.859645946963792 --l_beta=0.0356461479244465 --l_gamma=0.5 --beta=0.7097546519516305 --warm_up=20
+#  python tran_train.py --dataset=a-computer --teacher=GCN --student=MLP --exp_setting=tran --split_rate=0.1 --num_layers=2 --hidden_dim=64 --dropout_t=0.4 --dropout_s=0.2 --learning_rate=0.005 --weight_decay=0.005 --max_epoch=200 --seed=353844 --data_mode=5 --tau_0=0.7 --tau_1=2.0 --topk=1 --alpha=0.6 --l_alpha=2.859645946963792 --l_beta=0.0356461479244465 --l_gamma=0.5 --beta=0.7097546519516305 --warm_up=20
